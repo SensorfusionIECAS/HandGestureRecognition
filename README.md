@@ -23,6 +23,6 @@ Hand gesture recogniiton algorithm on a resource-limited interactive wristband. 
     采集的时候是一整个文件么，用这个函数分割事件，把样本存到cell里就是main函数要用的数据集了。
     分割方法是寻找事件开始点（刚才不动，现在动了）和结束点（刚才动，现在不动了），基本思想是这样，然后用滑动窗口平均提高可靠性。\
     
-## GenerateFigures
+## GenerateFigures 生成论文中的图
   这里面的文件就都是用于生成论文里的图了，Figure 2 还包括录制 video abstract.
 
